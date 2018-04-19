@@ -1,0 +1,292 @@
+.main{
+  background-image: url(media/boat.jpg);
+  background-size: contain;
+}
+
+.title{
+  text-align: center;
+  padding: 25px;
+}
+
+.title a{
+  text-align: center;
+  text-decoration: none;
+  color: #333333;
+  font-size: 40px;
+}
+
+.title a:hover{
+  color: #808080;
+}
+
+.nav{
+  list-style:none;
+  text-align: center;
+  margin:0px;
+  padding:0px;
+}
+
+.nav li{
+  display:inline;
+  color: #b3b3b3;
+}
+
+.nav a{
+  display:inline-block;
+  padding:15px;
+  color: #808080;
+  text-decoration: none;
+}
+
+.nav a:hover{
+  color: #333333;
+}
+
+.nav a.home{
+  color: #333333;
+}
+
+.quote p{
+  text-align: center;
+  color: #4d4d4d;
+  font-size: 20px;
+  position: relative;
+  top: 150px;
+}
+
+.arrow img{
+  position: relative;
+  top: 450px;
+  height: 80px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block1{
+  position: relative;
+  top: 570px;
+  background-color:  #101010;
+  width: 100%;
+} 
+
+.block1 h2{
+  text-align: center;
+  font-size: 50px;
+  background: linear-gradient(#0657d8, #06d4d8);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.seperate{
+  background-color: white;
+  margin: 80px;
+  max-height: 20px;
+  background: linear-gradient(to right, #06d4d8, #0657d8, #2f0fe0, #ca59ff);
+  border-radius: 10px;
+}
+
+.block1 p{
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 26px;
+  padding: 50px;
+}
+
+.code {
+  display: block;
+  background-color: white;
+  position: relative;
+  top: 531px;
+}
+
+.code h2{
+  background: linear-gradient(#0657d8, #06d4d8);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 50px;
+  padding: 30px;
+}
+
+.code h4{
+	 background: linear-gradient(#0657d8, #06d4d8);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.code p{
+  color: black;
+  padding-top: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  font-size: 26px;
+}
+
+.about {
+  display: block;
+  background-color: whitesmoke;
+  position: relative;
+  top: 580px;
+}
+
+.about h2{
+  background: black;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 50px;
+  padding: 35px;
+}
+
+.about p{
+  color: black;
+  font-size: 26px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 60px; 
+}
+
+.experience {
+  display: block;
+  background-color: #e8bba7;
+  position: relative;
+  top: 530px;
+  padding-bottom: 20px;
+}
+
+.experience h2{
+  background: black;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 50px;
+  padding: 35px;
+}
+
+.experience h3{
+  background: #1b1b1c;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 35px;	
+}
+
+.experience p{
+  color: #181819;
+  text-align: center;
+  font-size: 26px;
+}
+
+.pkp {
+  display: block;
+  background-color: floralwhite;
+  position: relative;
+  top: 480px;
+  padding-bottom: 20px;
+}
+
+.pkp h2{
+  background: black;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 50px;
+  padding: 35px;
+}
+
+.pkp p{
+  color: #0e0e0f;
+  font-size: 26px;
+  text-align: center;
+  padding: 0px;
+}
+
+.portfolio {
+  display: block;
+  background-color: #101010;
+  position: relative;
+  top: 430px;
+  padding-bottom: 50px;
+}
+
+.portfolio h2{
+  background: white;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 50px;
+  padding: 35px;
+}
+
+.portfolio p{
+  color: white;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 60px;
+  font-size: 26px;
+}
+
+.wrapper {
+   display: grid;
+   grid-template-columns: 650px 650px;
+   grid-gap: 40px;
+   text-align: center;
+   position: relative;
+   left: 45px;	
+}
+
+.wrapper img{
+  border-radius: 15px;
+}
+
+.contact {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  background-color: white;
+  position: relative;
+  top: 380px;
+  padding-bottom: 20px;
+  height: 700px;	
+}
+
+.contact h2{
+  background: black;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 50px;
+  padding: 25px;
+}
+
+.contact p{
+  color: #404042;
+  font-size: 18px;
+  text-align: center;
+}
+
+.location{
+	display: inline-block;
+	background-color: white;
+}
+
+.location button{
+	color: #404042;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+body{
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+}
